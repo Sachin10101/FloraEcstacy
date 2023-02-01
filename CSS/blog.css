@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Blog {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: row ;
+    padding: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 07);
+}
+.Blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Blog-heading span {
+    color: black;
+    font-size: 1.8rem;
+}
+.Blog-heading h1 {
+    font-size: 1.5rem;
+    color: rgb(2, 121, 2);
+    font-weight: 600;
+
+}
+.Blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.Bonsai-box {
+    width: 500px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px;
+    
+}
+.Bonsai-img {
+    width: 100%;
+    height: auto;
+}
+.Bonsai-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right right;
+}
+.Bonsai-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Bonsai-text span {
+    color: #00008b;
+    font-size: 1.0 rem;
+}
+.Bonsai-text .Bonsai-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.Bonsai-text .Bonsai-title:hover {
+    color: rgb(3, 104, 3);
+    transition: all ease 0.3s;
+
+}
+.Bonsai-text p {
+    color: black;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20 0px;
+}
+.Bonsai-text a {
+    color: rgb(0, 59, 0);
+    font-size: 1.5rem;
+}
+.Bonsai-text a:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
+section {
+    padding: 50px;
+}
